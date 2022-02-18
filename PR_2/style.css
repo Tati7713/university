@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+.general {
+    background: #96d1e7;
+    padding: 20px;
+}
+.flex {
+    display: flex;
+}
+.box {
+    margin: 35px;
+    width: 300px;
+    height: 400px;
+    box-shadow: #464646 3px 3px 10px 3px;
+    background: #f5ddad;
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 15px;
+}
+p {
+    margin: 5px 0;
+}
+h1 {
+    text-align: center;
+    color: #e8aa35;
+    text-shadow: #4f4023 2px 3px 2px;
+    font-size: 50px;
+}
