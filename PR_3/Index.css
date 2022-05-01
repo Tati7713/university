@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background: #96d1e7;
+}
+div {
+    margin: auto;
+    width: 900px;
+    height: 300px;
+    box-shadow: #464646 3px 3px 10px 3px;
+    background: #f5ddad;
+    text-align: center;
+}
+
+h2 {
+    padding: 50px 0 0 0;
+    text-align: center;
+    color: #e8aa35;
+    text-shadow: #4f4023 2px 3px 2px;
+    font-size: 50px;
+}
+
+
