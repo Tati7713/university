@@ -1,0 +1,329 @@
+<Html>
+<Head>
+<Meta http-equiv = "Content-Type" content = "text / html; charset = utf-8">
+<Title> Лабораторна робота №5</title>
+<style>
+.sign {
+float: left;
+padding: 8px; /* Поля внутри блока */
+margin: 10px 0 5px 5px; /* Отступы вокруг */
+background: #FFFFFF; /* Цвет фона */
+}
+html {
+background-color: #f0f0f0;
+}
+body {font-family: Arial;}
+.tab {
+overflow: hidden;
+border: 1px solid #ccc;
+background-color: #f1f1f1;
+}
+
+.tab button {
+background-color: inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+font-size: 17px;
+}
+
+.tab button:hover {
+background-color: #ddd;
+}
+
+.tab button.active {
+background-color: #ccc;
+}
+
+.tabcontent {
+display: none;
+padding: 6px 12px;
+-webkit-animation: fadeEffect 1s;
+animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+</style>
+</Head>
+<Body>
+
+<figure class="sign">
+<p> <img src="https://randus.org/photos/w/e2c9dd9c9e9c9c0c.jpg" weight="300" height="300"/> </p>
+<figcaption><center><font size="3" face="Arial"> Акименко Ліза </font><center></figcaption>
+<details>
+<p><font size="3" face="Arial"> Ім’я: Ліза</font></p>
+<p><font size="3" face="Arial"> Email: LizaAkymenko623@gmail.com </font></p>
+<p><font size="3" face="Arial"> Адреса проживання: м. Покровськ,<br> вул. Пішохідний, буд. 144</font></p>
+<p><font size="3" face="Arial"> Телефон: +380946444851 </font></p>
+<p><font size="3" face="Arial"> Адреса WEB сайту: - </font></p>
+<p><font size="3" face="Arial"> Інформація про компанію: - </font></p>
+</details>
+</figure>
+<figure class="sign">
+<p> <img src= "https://randus.org/photos/w/43070b193c3c3c10.jpg" weight="300" height="300"/> </p>
+<figcaption><center><font size="3" face="Arial"> Ющенко Біляна </font><center></figcaption>
+<details>
+<p><font size="3" face="Arial"> Ім’я: Біляна </font></p>
+<p><font size="3" face="Arial"> Email: BilianaYushchenko781@gmail.com </font></p>
+<p><font size="3" face="Arial"> Адреса проживання: м. Підгородне, <br> вул. Волзький, буд. 119</font></p>
+<p><font size="3" face="Arial"> Телефон: +380987457062 </font></p>
+<p><font size="3" face="Arial"> Адреса WEB сайту: - </font></p>
+<p><font size="3" face="Arial"> Інформація про компанію: - </font></p>
+</details>
+</figure>
+<figure class="sign">
+<p> <img src="https://randus.org/photos/m/003139f8fc7878f0.jpg" weight="300" height="300"/> </p>
+<figcaption><center><font size="3" face="Arial"> Лисенко Микита </font><center></figcaption>
+<details>
+<p><font size="3" face="Arial"> Ім’я: Микита </font></p>
+<p><font size="3" face="Arial"> Email: MykytaLysenko489@gmail.com </font></p>
+<p><font size="3" face="Arial"> Адреса проживання: м. Хуст,<br> вул. Корінна, буд. 123</font></p>
+<p><font size="3" face="Arial"> Телефон: +380966028878 </font></p>
+<p><font size="3" face="Arial"> Адреса WEB сайту: - </font></p>
+<p><font size="3" face="Arial"> Інформація про компанію: - </font></p>
+</details>
+</figure>
+<figure class="sign">
+<p> <img src="https://randus.org/photos/m/e3c1ddc03e0c08c2.jpg" weight="300" height="300"/> </p>
+<figcaption><center><font size="3" face="Arial"> Євсеєнко Юхим </font><center></figcaption>
+<details>
+<p><font size="3" face="Arial"> Ім’я: Юхим </font></p>
+<p><font size="3" face="Arial"> Email: YukhymYevseienko350@gmail.com </font></p>
+<p><font size="3" face="Arial"> Адреса проживання: м. Мелітополь,<br> вул. Ягідна, буд. 143</font></p>
+<p><font size="3" face="Arial"> Телефон: +380508598962 </font></p>
+<p><font size="3" face="Arial"> Адреса WEB сайту: - </font></p>
+<p><font size="3" face="Arial"> Інформація про компанію: - </font></p>
+</details>
+</figure>
+<figure class="sign">
+<p> <img src="https://randus.org/photos/m/8383393bbfbf9800.jpg" weight="300" height="300"/> </p>
+<figcaption><center><font size="3" face="Arial"> Линник Йоав </font><center></figcaption>
+<details>
+<p><font size="3" face="Arial"> Ім’я: Йоав </font></p>
+<p><font size="3" face="Arial"> Email: YoavLynnyk972@gmail.com </font></p>
+<p><font size="3" face="Arial"> Адреса проживання: м. Бобринець,<br> вул. Пугачова, буд. 81></font></p>
+<p><font size="3" face="Arial"> Телефон: +380917929526 </font></p>
+<p><font size="3" face="Arial"> Адреса WEB сайту: - </font></p>
+<p><font size="3" face="Arial"> Інформація про компанію: - </font></p>
+</details>
+</figure>
+<figure class="sign">
+<p> <img src="https://randus.org/photos/w/583c7c383c3c3c39.jpg" weight="300" height="300"/> </p>
+<figcaption><center><font size="3" face="Arial"> Скородод Рахіль </font><center></figcaption>
+<details>
+<p><font size="3" face="Arial"> Ім’я: Рахіль </font></p>
+<p><font size="3" face="Arial"> Email: RakhilSkorodod937@gmail.com </font></p>
+<p><font size="3" face="Arial"> Адреса проживання: м. Мелітополь,<br> вул. Петрозаводська, буд. 191</font></p>
+<p><font size="3" face="Arial"> Телефон: +380918360127</font></p>
+<p><font size="3" face="Arial"> Адреса WEB сайту: - </font></p>
+<p><font size="3" face="Arial"> Інформація про компанію: - </font></p>
+</details>
+</figure>
+<figure class="sign">
+<p> <img src="https://randus.org/photos/w/c7c399999f9b1800.jpg" weight="300" height="300"/> </p>
+<figcaption><center><font size="3" face="Arial"> Ярмо Едита </font><center></figcaption>
+<details>
+<p><font size="3" face="Arial"> Ім’я: Едита </font></p>
+<p><font size="3" face="Arial"> Email: EdytaYarmo808@gmail.com </font></p>
+<p><font size="3" face="Arial"> Адреса проживання: м. Вовчанськ,<br> вул. Берегова, буд. 45</font></p>
+<p><font size="3" face="Arial"> Телефон: +380927386827</font></p>
+<p><font size="3" face="Arial"> Адреса WEB сайту: - </font></p>
+<p><font size="3" face="Arial"> Інформація про компанію: - </font></p>
+</details>
+</figure>
+<figure class="sign">
+<h1>Інші Користувачі</h1>
+<div class="tab">
+<button class="tablinks" onclick="openCity(event, '1')">Leanne Graham</button>
+<button class="tablinks" onclick="openCity(event, '2')">Ervin Howell</button>
+<button class="tablinks" onclick="openCity(event, '3')">Clementine Bauch</button>
+<button class="tablinks" onclick="openCity(event, '4')">Patricia Lebsack</button>
+<button class="tablinks" onclick="openCity(event, '5')">Chelsey Dietrich</button>
+<button class="tablinks" onclick="openCity(event, '6')">Mrs. Dennis Schulist</button>
+<button class="tablinks" onclick="openCity(event, '7')">Kurtis Weissnat</button>
+<button class="tablinks" onclick="openCity(event, '8')">Nicholas Runolfsdottir V</button>
+<button class="tablinks" onclick="openCity(event, '9')">Glenna Reichert</button>
+<button class="tablinks" onclick="openCity(event, '10')">Clementina DuBuque</button>
+</div>
+
+<div id="1" class="tabcontent">
+<h3>Leanne Graham</h3>
+<p>username: Bret</p>
+<p>email: Sincere@april.biz</p>
+<p>address: Kulas Light, Apt. 556, Gwenborough</p>
+<p>zipcode: 92998-3874 </p>
+<p>geolocation: -37.3159, 81.1496 </p>
+<p>phone:1-770-736-8031 x56442 </p>
+<p>website: hildegard.org </p>
+<h3>Company:</h3>
+<p>name: Romaguera-Crona </p>
+<p>catchPhrase: Multi-layered client-server neural-net </p>
+<p>bs: harness real-time e-markets</p>
+</div>
+
+<div id="2" class="tabcontent">
+<h3>Ervin Howell</h3>
+<p>username: Antonette</p>
+<p>email: Shanna@melissa.tv</p>
+<p>address: Victor Plains, Suite 879, Wisokyburgh</p>
+<p>zipcode: 90566-7771 </p>
+<p>geolocation: -43.9509, -34.4618 </p>
+<p>phone:010-692-6593 x09125 </p>
+<p>website: anastasia.net </p>
+<h3>Company:</h3>
+<p>name: Deckow-Crist </p>
+<p>catchPhrase: Proactive didactic contingency </p>
+<p>bs: synergize scalable supply-chains </p>
+</div>
+
+<div id="3" class="tabcontent">
+<h3>Clementine Bauch</h3>
+<p>username: Samantha </p>
+<p>email: Nathan@yesenia.net </p>
+<p>address: Douglas Extension, Suite 847, McKenziehaven </p>
+<p>zipcode: 59590-4157 </p>
+<p>geolocation: -68.6102, 47.0653 </p>
+<p>phone: 1-463-123-4447 </p>
+<p>website: ramiro.info </p>
+<h3>Company:</h3>
+<p>name: Romaguera-Jacobson </p>
+<p>catchPhrase: Face to face bifurcated interface </p>
+<p>bs: e-enable strategic applications </p>
+</div>
+
+<div id="4" class="tabcontent">
+<h3> Patricia Lebsack </h3>
+<p>username: Karianne </p>
+<p>email: Julianne.OConner@kory.org </p>
+<p>address: Hoeger Mall , Apt. 692, South Elvis </p>
+<p>zipcode: 53919-4257 </p>
+<p>geolocation: 29.4572, -164.2990 </p>
+<p>phone: 493-170-9623 x156 </p>
+<p>website: kale.biz </p>
+<h3>Company:</h3>
+<p>name: Robel-Corkery </p>
+<p>catchPhrase: Multi-tiered zero tolerance productivity </p>
+<p>bs: transition cutting-edge web services </p>
+</div>
+
+<div id="5" class="tabcontent">
+<h3> Chelsey Dietrich </h3>
+<p>username: Kamren</p>
+<p>email: Lucio_Hettinger@annie.ca </p>
+<p>address: Skiles Walks, Suite 351, Roscoeview </p>
+<p>zipcode: 33263 </p>
+<p>geolocation: -31.8129, 62.5342 </p>
+<p>phone: (254)954-1289 </p>
+<p>website: demarco.info </p>
+<h3>Company:</h3>
+<p>name: Keebler LLC </p>
+<p>catchPhrase: User-centric fault-tolerant solution </p>
+<p>bs: revolutionize end-to-end systems </p>
+</div>
+
+<div id="6" class="tabcontent">
+<h3> Mrs. Dennis Schulist </h3>
+<p>username: Leopoldo_Corkery </p>
+<p>email: Karley_Dach@jasper.info </p>
+<p>address: Norberto Crossing, Apt. 950, South Christy </p>
+<p>zipcode: 23505-1337 </p>
+<p>geolocation: -71.4197, 71.7478 </p>
+<p>phone: 1-477-935-8478 x6430 </p>
+<p>website: ola.org </p>
+<h3>Company:</h3>
+<p>name: Considine-Lockman </p>
+<p>catchPhrase: Synchronised bottom-line interface </p>
+<p>bs: e-enable innovative applications </p>
+</div>
+
+<div id="7" class="tabcontent">
+<h3> Kurtis Weissnat </h3>
+<p>username: Elwyn.Skiles </p>
+<p>email: Telly.Hoeger@billy.biz </p>
+<p>address: Rex Trail, Suite 280, Howemouth </p>
+<p>zipcode: 58804-1099 </p>
+<p>geolocation: 24.8918, 21.8984 </p>
+<p>phone: 210.067.6132 </p>
+<p>website: elvis.io </p>
+<h3>Company:</h3>
+<p>name: Johns Group</p>
+<p>catchPhrase: Configurable multimedia task-force </p>
+<p>bs: generate enterprise e-tailers </p>
+</div>
+
+<div id="8" class="tabcontent">
+<h3> Nicholas Runolfsdottir V</h3>
+<p>username: Maxime_Nienow </p>
+<p>email: Sherwood@rosamond.me </p>
+<p>address: Ellsworth Summit, Suite 729, Aliyaview </p>
+<p>zipcode: 45169 </p>
+<p>geolocation: -14.3990, -120.7677 </p>
+<p>phone: 586.493.6943 x140 </p>
+<p>website: jacynthe.com </p>
+<h3>Company:</h3>
+<p>name: Abernathy Group </p>
+<p>catchPhrase: Implemented secondary concept </p>
+<p>bs: e-enable extensible e-tailers </p>
+</div>
+
+<div id="9" class="tabcontent">
+<h3> Glenna Reichert </h3>
+<p>username: Delphine </p>
+<p>email: Chaim_McDermott@dana.io </p>
+<p>address: Dayna Park, Suite 449, Bartholomebury </p>
+<p>zipcode: 76495-3109 </p>
+<p>geolocation: 24.6463, -168.8889 </p>
+<p>phone: (775)976-6794 x41206 </p>
+<p>website: conrad.com</p>
+<h3>Company:</h3>
+<p>name: Yost and Sons </p>
+<p>catchPhrase: Switchable contextually-based project </p>
+<p>bs: aggregate real-time technologies </p>
+</div>
+
+<div id="10" class="tabcontent">
+<h3> Clementina DuBuque </h3>
+<p>username: Moriah.Stanton</p>
+<p>email: Rey.Padberg@karina.biz </p>
+<p>address: Kattie Turnpike, Suite 198, Lebsackbury </p>
+<p>zipcode: 31428-2261 </p>
+<p>geolocation: -38.2386, 57.2232 </p>
+<p>phone: 024-648-3804 </p>
+<p>website: ambrose.net </p>
+<h3>Company:</h3>
+<p>name: Hoeger LLC </p>
+<p>catchPhrase: Centralized empowering task-force </p>
+<p>bs: target end-to-end models </p>
+</div>
+
+</figure>
+
+<script>
+function openCity(evt, cityName) {
+var i, tabcontent, tablinks;
+tabcontent = document.getElementsByClassName("tabcontent");
+for (i = 0; i < tabcontent.length; i++) {
+tabcontent[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablinks");
+for (i = 0; i < tablinks.length; i++) {
+tablinks[i].className = tablinks[i].className.replace(" active", "");
+}
+document.getElementById(cityName).style.display = "block";
+evt.currentTarget.className += " active";
+}
+</script>
+
+</Body>
+</Html>
